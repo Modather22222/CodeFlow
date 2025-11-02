@@ -5,6 +5,7 @@
 
   export default defineConfig({
     plugins: [react()],
+    base: "https://modather22222.github.io/CodeFlow",
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {
